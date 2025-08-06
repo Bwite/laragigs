@@ -13,6 +13,10 @@
             referrerpolicy="no-referrer"
         />
         <script src="https://cdn.tailwindcss.com"></script>
+
+        {{--recaptcha code here--}}
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
         <script>
             tailwind.config = {
                 theme: {
